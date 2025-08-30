@@ -16,6 +16,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.send('Backend server is running!');
+  
 });
 
 // GET /api/users
